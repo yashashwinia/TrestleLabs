@@ -1,74 +1,51 @@
-HEAD
-# TrestleLabs
+# TrestleLabs - Scanner App with Auto-Crop & Firebase Hosting
 
-# Getting Started with Create React App
+## Project Overview
+This is a React application that allows users to upload images, automatically crop documents using custom image processing, zoom and pan the scanned images, and maintain a gallery of past scans. The app is deployed live using Firebase Hosting.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- Upload images for scanning
+- Automated document auto-cropping for clean scans
+- Zoom and pan functionality on scanned documents
+- User gallery to view previously scanned images
+- Responsive UI design for cross-device compatibility
+- Hosted live on Firebase with fast and secure delivery
 
-## Available Scripts
+## Technologies Used
+- React.js for frontend interface
+- Firebase Hosting for deployment and static asset serving
+- JavaScript libraries for image processing (e.g., OpenCV.js or custom code)
+- CSS for styling and responsive layouts
 
-In the project directory, you can run:
+## Installation & Setup
 
-### `npm start`
+Clone the repository:
+git clone https://github.com/yashashwinia/TrestleLabs.git
+cd TrestleLabs
+Install dependencies:npm install
+Build the React app for production:npm run build
+Deploy to Firebase Hosting (make sure you have Firebase CLI installed and configured):firebase deploy --only hosting
+## Running Locally
+For development, run:npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This will start the app locally on `http://localhost:3000`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+The app is deployed and accessible here:  
+[https://trestle-labs-fsd.web.app](https://trestle-labs-fsd.web.app)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Improvements
 
-### `npm run build`
+- Enhance auto-cropping accuracy with machine learning models  
+- Add user authentication for personalized galleries and saving scans  
+- Implement backend storage and synchronization for images  
+- Introduce additional image editing and annotation features  
+- Optimize app performance and loading time
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Thank you for checking out 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-8445f82 (Initial commit - Scanner app with auto-crop and Firebase hosting)
