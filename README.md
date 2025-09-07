@@ -22,10 +22,13 @@ This is a React application that allows users to upload images, automatically cr
 Clone the repository:
 git clone https://github.com/yashashwinia/TrestleLabs.git
 cd TrestleLabs
+
 Install dependencies:
 npm install
+
 Build the React app for production:
 npm run build
+
 Deploy to Firebase Hosting (make sure you have Firebase CLI installed and configured):
 firebase deploy --only hosting
 ## Running Locally
